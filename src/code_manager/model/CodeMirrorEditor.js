@@ -1,6 +1,7 @@
 import { bindAll } from 'underscore';
 import Backbone from 'backbone';
 import CodeMirror from 'codemirror/lib/codemirror';
+import ShowHint from 'codemirror/addon/hint/show-hint';
 import 'codemirror/mode/htmlmixed/htmlmixed';
 import 'codemirror/mode/css/css';
 import 'codemirror-formatting';
